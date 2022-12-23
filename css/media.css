@@ -1,0 +1,776 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1560px) {
+	.logo img {
+		width: 290px;
+	}
+	.social-list li {
+		margin-right: 17px;
+	}
+	.menu a {
+		height: 80px;
+	}
+	.descr-big {
+		font-size: 35px;
+		line-height: 50px;
+	}
+	.title-big {
+		font-size: 56px;
+		line-height: 81px;
+	}
+	.descr-middle {
+		font-size: 26px;
+		line-height: 38px;
+	}
+	.billbord .descr-middle {
+		margin-bottom: 33px;
+		max-width: 364px;
+	}
+	.name-form {
+		font-size: 17px;
+		line-height: 28px;
+	}
+	.billbord {
+		padding-top: 60px;
+		padding-bottom: 30px;
+		min-height: 590px;
+	}
+	.location-main strong {
+		font-size: 15px;
+	}
+	.item-advantage__title {
+		font-size: 25px;
+		line-height: 39px;
+	}
+	.item-advantage__icon {
+		margin-right: 28px;
+	}
+	.item-advantage__head {
+		margin-bottom: 25px;
+	}
+	.row_advantages {
+		margin: 0 -40px;
+	}
+	.row_advantages > div {
+		padding: 0 40px;
+	}
+	.content-section {
+		padding: 35px 45px;
+		padding-bottom: 50px;
+	}
+	.row_categories > div:nth-child(3) .item-category ul {
+		margin-right: -25px;
+	}
+	body {
+		font-size: 15px;
+	}
+	.item-category__image {
+		transform: scale(0.9);
+		transform-origin: 100% 100%;
+	}
+	.row_categories > div:nth-child(4) .item-category__image, .row_categories > div:nth-child(2) .item-category__image {
+		transform-origin: 50% 100%;
+	}
+	.item-category__title {
+		font-size: 18px;
+		line-height: 25px;
+		margin-bottom: 12px;
+	}
+	.categories .content-section::after {
+		width: 960px;
+		height: 960px;
+		top: 0;
+	}
+	.selection-block {
+		padding: 40px 50px;
+	}
+	.title-block {
+		font-size: 36px;
+		line-height: 53px;
+	}
+	.descr-block {
+		font-size: 18px;
+		line-height: 26px;
+		margin-bottom: 25px;
+	}
+	.selection-block__image {
+		bottom: -42px;
+	}
+	.item-catalog__title {
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.price-main span {
+		font-size: 18px;
+	}
+	.item-catalog {
+		padding: 15px;
+		padding-bottom: 20px;
+	}
+	.dealer-block {
+		padding: 45px 65px;
+		margin-bottom: 40px;
+	}
+	.dealer-block__image img {
+		max-width: 1300px;
+	}
+	.dealer-block__image {
+		left: 220px;
+	}
+	.about .row_advantages > div {
+		margin-bottom: 70px;
+		padding: 0 50px;
+	}
+	.about .row_advantages {
+		margin: 0 -50px;
+	}
+	.about {
+		padding-bottom: 20px;
+	}
+	.image-map {
+		right: -313px;
+	}
+	.about-team {
+		margin-top: 103px;
+		margin-bottom: 169px;
+		max-width: 240px;
+	}
+	.item-number {
+		margin-top: 30px;
+		margin-left: 35px;
+	}
+	.item-team__image {
+		height: 203px;
+	}
+	.clients .title-section {
+		padding-bottom: 40px;
+	}
+	.item-client {
+		height: 140px;
+	}
+	.consultation-block {
+		padding: 75px;
+	}
+	.contact-block {
+		height: 490px;
+		font-size: 13px;
+		line-height: 20px;
+		padding-top: 14px;
+		padding-right: 25px;
+	}
+	.header {
+		font-size: 13px;
+	}
+	.phones-list {
+		font-size: 15px;
+	}
+	.btn-page {
+		font-size: 13px;
+		height: 39px;
+	}
+	.sandwich span {
+		width: 43px;
+	}
+	.sandwich {
+		width: 43px;
+	}
+	.footer__line .btn-page {
+		margin-right: 31px;
+	}
+	.header.nav-up {
+		transform: translateY(-175px);
+	}
+	.wrapper {
+		padding-top: 170px;
+	}
+	.descr-section {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width : 1300px) {
+	body {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.logo img {
+		width: 250px;
+	}
+	.row_advantages {
+		margin: 0 -20px;
+	}
+	.row_advantages > div {
+		padding: 0 20px;
+	}
+	.content-section {
+		padding: 30px;
+		padding-bottom: 35px;
+	}
+	.item-category {
+		padding: 25px 30px;
+		min-height: 340px;
+		line-height: 20px;
+	}
+	.item-category__image {
+		transform: scale(0.8);
+	}
+	.item-category__title::before {
+		margin-right: 4px;
+	}
+	.item-category__title {
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.categories .content-section::after {
+		width: 800px;
+		height: 800px;
+	}
+	.title-block {
+		font-size: 32px;
+		line-height: 48px;
+	}
+	.item-catalog .btn-main {
+		padding: 0 20px;
+		font-size: 13px;
+	}
+	.link-page {
+		font-size: 12px;
+	}
+	.item-dealer__image {
+		max-width: 200px;
+	}
+	.about .row_advantages > div {
+		margin-bottom: 60px;
+		padding: 0 30px;
+	}
+	.about .row_advantages {
+		margin: 0 -30px;
+	}
+	.about .item-advantage__title {
+		white-space: normal;
+	}
+	.about .item-advantage__title {
+		font-size: 20px;
+		line-height: 29px;
+	}
+	.title-section {
+		font-size: 33px;
+		line-height: 46px;
+	}
+	.image-map img {
+		max-width: 670px;
+	}
+	.image-map {
+		right: -267px;
+	}
+	.item-team__image {
+		height: 187px;
+	}
+	.item-number__value {
+		font-size: 42px;
+		line-height: 62px;
+	}
+	.item-number {
+		max-width: 296px;
+	}
+	.about-team {
+		margin-bottom: 125px;
+	}
+	.item-client {
+		height: 125px;
+	}
+	.clients {
+		padding-bottom: 55px;
+	}
+	.contact-block {
+		font-size: 12px;
+	}
+	.footer__nav_big a, .footer__title {
+		font-size: 15px;
+	}
+	.footer {
+		font-size: 13px;
+		line-height: 21px;
+	}
+	.footer__line .btn-page {
+		margin-right: 25px;
+	}
+	.footer__contacts {
+		padding-left: 0;
+	}
+	.header.nav-up {
+		transform: translateY(-165px);
+	}
+	.wrapper {
+		padding-top: 162px;
+	}
+	.descr-section {
+		font-size: 16px;
+		max-width: 760px;
+	}
+	.row_categories > div:nth-child(3) .item-category__image {
+		bottom: -24px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.logo img {
+		width: 175px;
+	}
+	.header {
+		font-size: 12px;
+	}
+	.phones-list {
+		font-size: 13px;
+	}
+	.social-list li {
+		margin-right: 11px;
+	}
+	.btn-call {
+		width: 40px;
+		height: 40px;
+		margin-left: 13px;
+	}
+	.social-list img {
+		max-width: 18px;
+	}
+	.search-form input {
+		width: 135px;
+	}
+	.menu {
+		margin: 0 25px;
+	}
+	.menu a {
+		height: 70px;
+	}
+	.header__top {
+		padding: 9px 0;
+	}
+	.header.nav-up {
+		transform: translateY(-130px);
+	}
+	.wrapper {
+		padding-top: 128px;
+	}
+	.location-main strong {
+		font-size: 14px;
+	}
+	.location-main__value {
+		padding-left: 18px;
+	}
+	.descr-big {
+		font-size: 28px;
+		line-height: 37px;
+	}
+	.title-big {
+		font-size: 47px;
+		line-height: 69px;
+	}
+	.descr-middle {
+		font-size: 22px;
+		line-height: 34px;
+	}
+	.billbord .descr-middle {
+		margin-bottom: 25px;
+		max-width: 309px;
+	}
+	.name-form {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.billbord {
+		padding-top: 55px;
+		padding-bottom: 25px;
+		min-height: 525px;
+	}
+	.advantages {
+		padding-top: 45px;
+		padding-bottom: 300px;
+	}
+	.item-category__image {
+		transform: scale(0.6);
+	}
+	.item-category {
+		min-height: 315px;
+	}
+	.categories .content-section::after {
+		width: 700px;
+		height: 700px;
+		top: 80px;
+	}
+	.selection-block__left {
+		z-index: 3;
+	}
+	.selection-block {
+		padding: 35px 25px;
+	}
+	.title-block {
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.descr-block {
+		font-size: 16px;
+		line-height: 23px;
+		margin-bottom: 20px;
+	}
+	.selection-block .list-page {
+		max-width: 340px;
+	}
+	.catalog {
+		padding-bottom: 50px;
+	}
+	.title-section {
+		font-size: 27px;
+		line-height: 42px;
+	}
+	.dealer-block .title-section {
+		padding-bottom: 30px;
+	} 
+	.dealer-block {
+		padding: 30px 35px;
+	}
+	.dealer-block__image img {
+		max-width: 1155px;
+	}
+	.about .row_advantages > div {
+		margin-bottom: 50px;
+		padding: 0 15px;
+	}
+	.about .row_advantages {
+		margin: 0 -15px;
+	}
+	.image-map img {
+		max-width: 480px;
+	}
+	.row_team {
+		margin: 0 -4px;
+	}
+	.row_team > div {
+		padding: 0 4px;
+		margin-top: 15px;
+	}
+	.item-team__title {
+		font-size: 16px;
+	}
+	.item-team__image {
+		height: 135px;
+	}
+	.about-team {
+		margin-top: 20px;
+		margin-bottom: 50px;
+		max-width: 215px;
+	}
+	.item-client {
+		height: 110px;
+	}
+	.consultation-block {
+		padding: 40px;
+	}
+	.title-main {
+		font-size: 34px;
+		line-height: 50px;
+		margin-bottom: 25px;
+	}
+	.consultation-block .descr-block {
+		margin-bottom: 30px;
+	}
+	.contact-block::before {
+		border-radius: 0px 60px 0px 0px;
+	}
+	.contact-block {
+		line-height: 18px;
+	}
+	.footer__line .btn-page {
+		margin-right: 9px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header__bottom,
+	.header__wrapper .location-main,
+	.header__wrapper .header__info,
+	.header__wrapper .btn-page,
+	.header__wrapper .header__contacts {
+		display: none;
+	}
+	.wrapper {
+		padding-top: 54px;
+	}
+	.header {
+		transform: none !important;
+	}
+	.descr-big {
+		font-size: 22px;
+		line-height: 33px;
+	}
+	.item-advantage__head {
+		margin-bottom: 15px;
+	}
+	.item-advantage__title {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	.item-advantage__icon {
+		margin-right: 15px;
+	}
+	.item-advantage {
+		margin-bottom: 15px;
+	}
+	.advantages {
+		padding-bottom: 270px;
+	}
+	.selection {
+		padding-top: 45px;
+		padding-bottom: 35px;
+	}
+	.selection-block__image img {
+		max-width: 400px;
+	}
+	.selection-block__image {
+		bottom: -36px;
+		left: 0;
+	}
+	.selection-block .list-page {
+		max-width: 100%;
+	}
+	.item-dealer__image {
+		height: 45px;
+	}
+	.item-dealer {
+		padding: 20px 20px;
+		margin-bottom: 25px;
+		height: 130px;
+	}
+	.image-sertificat {
+		max-width: 320px;
+	}
+	.dealer-block__image {
+		left: 0;
+	}
+	.dealer-block__image img {
+		max-width: 900px;
+	}
+	.title-section_advantages {
+		padding-bottom: 15px;
+	}
+	.about .row_advantages > div {
+		margin-bottom: 25px;
+	}
+	.image-map {
+		right: -100px;
+		top: auto;
+		bottom: -30px;
+	}
+	.about-team {
+		margin-bottom: 20px;
+		max-width: 100%;
+	}
+	.item-number {
+		margin-top: 10px;
+		margin-left: 0;
+	}
+	.team {
+		padding-bottom: 55px;
+	}
+	.clients .title-section {
+		padding-bottom: 25px;
+	}
+	.contact-block {
+		position: relative;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: auto;
+		padding-bottom: 30px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.consultation {
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+	#map {
+		height: 390px;
+	}
+	.footer__contacts,
+	.col_pl {
+		padding-left: 15px;
+	}
+	.footer__line {
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+	.footer .logo img {
+		width: 220px;
+	}
+	.footer {
+		font-size: 14px;
+		padding-top: 30px;
+	}
+	.footer__nav li {
+		margin: 0;
+	}
+	.footer__title,
+	.footer__nav_big a {
+		padding: 10px 0;
+		border-bottom: 1px solid #F5F5F5;
+		margin: 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.footer__title i {
+		font-size: 12px;
+		display: inline-block;
+		transition: all 0.3s;
+	}
+	.footer__title.active i {
+		transform: rotate(180deg);
+	}
+	.footer__content {
+		display: none;
+		padding-top: 15px;
+	}
+	.phones-list {
+		font-size: 14px;
+	}
+	.footer .phones-list {
+		margin: 15px 0;
+	}
+	.footer-bottom {
+		font-size: 13px;
+		text-align: center;
+		border: none;
+		margin-top: 0;
+	}
+	.create {
+		justify-content: center;
+	}
+	.footer-bottom .row > div {
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	.btn_top {
+		float: none;
+	}
+	.item-team__image {
+		height: 195px;
+	}
+	.logo img {
+		width: 190px;
+	}
+	.menu-mobile {
+		width: 100%;
+		top: 100%;
+		left: 0;
+		height: 100vh;
+		padding: 15px 15px;
+		padding-bottom: 120px;
+		display: none;
+		overflow: auto;
+		background: #21355E;
+		position: absolute;
+	}
+	.menu a {
+		margin: 0;
+		padding: 10px 0;
+		height: auto;
+		text-align: left;
+		word-spacing: initial;
+		display: block;
+		position: relative;
+		border-bottom: 1px solid #F5F5F5;
+	}
+	.menu-mobile .menu {
+		display: block;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	.search-form {
+		margin-bottom: 10px;
+	}
+	.search-form input {
+		width: auto;
+		flex: 1;
+	}
+	.header {
+		font-size: 14px;
+	}
+	.menu-mobile .header__info,
+	.menu-mobile .location-main {
+		margin-bottom: 15px;
+	}
+	.menu-mobile .header__contacts {
+		margin-top: 15px;
+	}
+	.menu-mobile .social-list li {
+		margin-right: 15px;
+	}
+	.menu a::before,
+	.menu a::after {
+		display: none;
+	}
+	.categories .content-section::after {
+		display: none;
+	}
+	.content-section {
+		border-radius: 20px;
+	}
+	.social-list li {
+		margin-right: 17px;
+	}
+	.footer__line .btn-page {
+		margin-right: 23px;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.footer__content {
+		display: block !important;
+	}
+	.menu-mobile,
+	.sandwich_menu {
+		display: none !important;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1300px) {
+	.container {
+		max-width: 1300px;
+	}
+}
+@media (min-width: 1560px) {
+	.container {
+		max-width: 1470px;
+	}
+}

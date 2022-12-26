@@ -92,7 +92,7 @@ form {
 .header {
 	font-size: 14px;
 	line-height: 20px;
-position: fixed;
+	position: fixed;
 	width: 100%;
 	z-index: 1000;
 	top: 0;
@@ -343,7 +343,7 @@ position: fixed;
 
 .billbord {
 	padding-top: 76px;
-	padding-bottom: 30px;
+	padding-bottom: 30px; 
 	min-height: 670px;
 	color: #F5F5F5;
 	background-image: url(../img/billbord.jpg);
@@ -450,6 +450,7 @@ position: fixed;
 	font-size: 12px;
 	line-height: 15px;
 	margin-top: 24px;
+	display: inline-block;
 	text-align: left;
 }
 .checkbox label input {
@@ -794,8 +795,6 @@ position: fixed;
 	width: 100%;
 }
 .descr-form {
-	margin-left: -15px;
-	margin-right: -15px;
 	margin-bottom: 20px;
 	font-weight: 500;
 	line-height: 22px;
@@ -1072,16 +1071,16 @@ position: fixed;
 	line-height: 22px;
 }
 .item-number__value {
-font-size: 48px;
-line-height: 67px;
+	font-size: 48px;
+	line-height: 67px;
 	font-weight: 700;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-background: linear-gradient(90.64deg, #09B2B2 0.17%, #1C7CDA 50.79%, #58D8DB 97.16%), #FFFFFF;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	background: linear-gradient(90.64deg, #09B2B2 0.17%, #1C7CDA 50.79%, #58D8DB 97.16%), #FFFFFF;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
 }
 .image-map {
 	right: -234px;
@@ -1094,7 +1093,7 @@ text-fill-color: transparent;
 	padding-top: 41px;
 	padding-bottom: 65px;
 	background: #21355E;
-		color: #58D8DB;
+	color: #58D8DB;
 }
 .clients .title-section {
 	padding-bottom: 58px;
@@ -1187,17 +1186,17 @@ text-fill-color: transparent;
 	border-radius: 35px;
 }
 .title-main {
-font-size: 40px;
-line-height: 56px;
-margin-bottom: 32px;
+	font-size: 40px;
+	line-height: 56px;
+	margin-bottom: 32px;
 	font-weight: 700;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-background: linear-gradient(90.64deg, #09B2B2 0.17%, #1C7CDA 50.79%, #58D8DB 97.16%), #FFFFFF;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	background: linear-gradient(90.64deg, #09B2B2 0.17%, #1C7CDA 50.79%, #58D8DB 97.16%), #FFFFFF;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
 }
 .consultation-block .descr-block {
 	margin-bottom: 50px;
@@ -1298,8 +1297,8 @@ text-fill-color: transparent;
 .footer-bottom {
 	padding: 10px 0;
 	margin-top: 35px;
-color: #63759B;
-border-top: 1px solid rgba(88, 216, 219, 0.1);
+	color: #63759B;
+	border-top: 1px solid rgba(88, 216, 219, 0.1);
 }
 .create {
 	display: flex;
@@ -1342,6 +1341,10 @@ border-top: 1px solid rgba(88, 216, 219, 0.1);
 .footer__title i {
 	display: none;
 }
+.footer__contacts,
 .col_pl {
 	padding-left: 0;
+}
+.footer .social-list li:last-child {
+	margin-right: 0;
 }

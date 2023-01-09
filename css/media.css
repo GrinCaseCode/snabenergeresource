@@ -10,7 +10,7 @@
 		height: 80px;
 	}
 	.descr-big {
-		font-size: 35px;
+		font-size: 35px;  
 		line-height: 50px;
 	}
 	.title-big {
@@ -185,6 +185,46 @@
 	.descr-section {
 		font-size: 17px;
 	}
+	.page-contacts .content-section {
+		padding-left:50px;
+		padding-right: 50px;
+	}
+	.item-news__content {
+		padding: 20px 30px;
+	}
+	.item-news__text {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.item-news__date {
+		font-size: 14px;
+		padding: 7px 13px;
+	}
+	.item-news__image {
+		height: 240px;
+	}
+	.article-content h1 {
+		font-size: 36px;
+		line-height: 53px;
+	}
+	.item-portfolio__image {
+		height: 385px;
+	}
+	.item-sertificat {
+		height: 295px;
+	}
+	.text-big {
+		font-size: 16px;
+	}
+	.page-about .content-section .text-big {
+		margin-bottom: 15px;
+	}
+	.list-simple li {
+		margin-bottom: 10px;
+	}
+	.team-about {
+		padding-bottom: 60px;
+	}
 }
 
 @media only screen and (max-width : 1300px) {
@@ -310,7 +350,41 @@
 	.row_categories > div:nth-child(3) .item-category__image {
 		bottom: -24px;
 	}
+	.page-contacts .content-section {
+		padding-left: 34px;
+		padding-right: 25px;
+	}
+	.item-news__image {
+		height: 200px;
+		border-radius: 25px 25px 0px 0px;
+	}
+	.item-news__image img {
+		border-radius: 25px 25px 0px 0px;
+	}
+	.item-news {
+		border-radius: 25px;
+	}
+	.item-news__content {
+		padding: 20px 20px;
+	}
+	.article-content h1 {
+		font-size: 32px;
+		line-height: 49px;
+	}
+	.article-content ul {
+		padding-bottom: 10px;
+	}
+	.item-portfolio__image {
+		height: 350px;
+	}
+	.item-sertificat {
+		height: 275px;
+	}
+	.page-sertificats .title-section {
+		padding-bottom: 30px;
+	}
 }
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.logo img {
@@ -482,7 +556,85 @@
 	.footer__line .btn-page {
 		margin-right: 9px;
 	}
-
+	.title-flash {
+		font-size: 17px;
+		line-height: 24px;
+		margin-bottom: 10px;
+	}
+	.item-news__image {
+		height: 170px;
+	}
+	.item-news__date {
+		font-size: 13px;
+		padding: 5px 13px;
+	}
+	.item-news__text {
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.page-numbers {
+		font-size: 14px;
+		margin: 0 15px;
+	}
+	.article-content p,
+	.article-content ul li {
+		margin-bottom: 15px;
+	}
+	.article-content ol {
+		padding-bottom: 15px;
+	}
+	.article .title-section {
+		padding-bottom: 25px;
+	}
+	.article-content {
+		padding-bottom: 30px;
+	}
+	.article-content img {
+		margin-bottom: 30px;
+	}
+	.item-portfolio__image {
+		height: 285px;
+	}
+	.item-portfolio {
+		margin-bottom: 25px;
+	}
+	.page-portfolio {
+		padding-bottom: 45px;
+	}
+	.page-portfolio .pager {
+		margin-top: 35px;
+	}
+	.tabs li {
+		padding: 0 5px;
+	}
+	.tabs {
+		margin: 0 -5px;
+	}
+	.col-main {
+		padding: 0 7px;
+	}
+	.row_sertificats {
+		margin: 0 -7px;
+	}
+	.item-sertificat {
+		height: 210px;
+		margin-bottom: 14px;
+	}
+	.page-sertificats .content-section {
+		padding-bottom: 30px;
+	}
+	.page-about .content-section {
+		margin-bottom: 50px;
+		padding-bottom: 25px;
+	}
+	.page-about .dealer-block {
+		font-size: 14px;
+		line-height: 19px;
+	}
+	.team-about .content-section {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -723,6 +875,55 @@
 	.footer__line .btn-page {
 		margin-right: 23px;
 	}
+	.page-contacts .content-section {
+		padding: 35px 35px;
+	}
+	.page-contacts .block-form {
+		float: none;
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+	.page-contacts__item {
+		margin-top: 30px;
+	}
+	.pager {
+		margin-top: 0;
+	}
+	.page-news {
+		padding-bottom: 40px;
+	}
+	.article-content .row_images img {
+		margin-top: 15px;
+	}
+	.row_images {
+		margin: 0 -5px;
+	}
+	.row_images > div {
+		padding: 0 5px;
+	}
+	.item-portfolio__image {
+		height: 370px;
+	}
+	.page-portfolio .title-section {
+		padding-bottom: 20px;
+	}
+	.col-main {
+		width: 25%;
+	}
+	.tabs a {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.tab-container {
+		padding-top: 25px;
+	}
+	.page-about .content-section .title-section {
+		margin-bottom: 10px;
+	}
+	.page-about .content-section img {
+		margin-top: 10px;
+	}
+
 }
 
 /* Small Devices, Tablets */
@@ -815,6 +1016,103 @@
 	.item-team {
 		max-width: 320px;
 		margin: 0 auto;
+	}
+	.page-contacts__left br + br {
+		display: none;
+	}
+	.page-contacts__item:first-child,
+	.page-contacts__item {
+		margin-top: 25px;
+	}
+	.item-news__image {
+		height: 250px;
+	}
+	.row_news > div {
+		margin-bottom: 25px;
+	}
+	.pager {
+		margin-top: 15px;
+	}
+	.breadcrumbs {
+		padding-top: 15px;
+	}
+	.article-content h1 {
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.article-content time {
+		padding: 7px 12px;
+		margin-top: 8px;
+		margin-bottom: 13px;
+	}
+	.article-content ul li {
+		padding-left: 35px;
+	}
+	.page-portfolio .content-section {
+		padding-top: 15px;
+		padding-bottom: 10px;
+	}
+	.item-portfolio__image {
+		height: 270px;
+		border-radius: 10px
+	}
+	.item-portfolio__image img {
+		border-radius: 10px;
+	}
+	.tabs {
+		margin-right: -30px;
+		padding-bottom: 10px;
+		overflow: auto;
+	}
+	.tabs a {
+		font-size: 14px;
+		line-height: 20px;
+		width: 250px;
+	}
+	.tabs::-webkit-scrollbar {
+		-webkit-appearance: none;
+	}
+	.tabs::-webkit-scrollbar:vertical {
+		width: 3px;
+	}
+	.tabs::-webkit-scrollbar:horizontal {
+		height: 3px;
+	}
+	.tabs::-webkit-scrollbar-thumb {
+		background-color: #09B2B2;
+		border-radius: 10px;
+	}
+	.tabs::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background-color: #ccc;
+	}
+	.page-sertificats .title-section {
+		padding-bottom: 19px;
+	}
+	.col-main {
+		width: 50%;
+	}
+	.item-sertificat {
+		height: 245px;
+	}
+	.page-sertificats {
+		padding-bottom: 50px;
+	}
+	.dealer-block::before {
+		border-radius: 50px 0px 0px 0px;
+	}
+	.page-about .dealer-block .title-small {
+		margin-bottom: 15px;
+	}
+	.title-small {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.page-about .dealer-block .col-xl-8 img {
+		margin-top: 10px;
+	}
+	.team-about {
+		padding-bottom: 40px;
 	}
 }
 
@@ -912,6 +1210,70 @@
 	.item-advantage__icon {
 		width: 60px;
 		height: 60px;
+	}
+	.page-contacts .content-section {
+		padding: 25px 25px;
+		padding-bottom: 0;
+	}
+	.title-flash::before {
+		margin-right: 2px;
+	}
+	.page-contacts .block-form {
+		margin-left: -25px;
+		margin-right: -25px;
+		width: auto;
+		max-width: initial;
+	}
+	.item-news__image {
+		height: 215px;
+	}
+	.page-numbers {
+		margin: 0 13px;
+	}
+	.page-portfolio .title-section {
+		padding-bottom: 15px;
+	}
+	.item-portfolio__image {
+		height: 220px;
+	}
+	.item-portfolio p {
+		margin-bottom: 10px;
+	}
+	.tabs {
+		margin-right: -15px;
+	}
+	.item-sertificat {
+		height: 210px;
+	}
+	.text-big {
+		font-size: 15px;
+	}
+	.page-about .dealer-block p {
+		margin-bottom: 15px;
+	}
+	.team-about .content-section {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.team-about .content-section {
+		margin-top: -105px;
+	}
+	.page-about {
+		padding-top: 40px;
+	}
+	.team-about .title-section {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.clients {
+		padding-top: 30px;
+		padding-bottom: 35px;
+	}
+	#map {
+		height: 350px;
+	}
+	.contact-block::before {
+		border-radius: 0px 30px 0px 0px;
 	}
 }
 

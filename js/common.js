@@ -55,7 +55,7 @@ function hasScrolled() {
 	});
 
 
-$('.item-dealer .link-page').click(function(event) {
+$('.item-dealer .link-page:not(.fancybox)').click(function(event) {
 		event.preventDefault();
 		$(this).parent().siblings(".item-dealer").removeClass('active');
 		$(this).parent().addClass('active');
@@ -113,6 +113,16 @@ $('.item-dealer .link-page').click(function(event) {
 		}
 	}
 	$(".input-phone").mask("+7 (999) 999-99-99");
+
+		$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().siblings().find(".tab-pane").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+
+	}); 
 
 
 	 // стайлер для select

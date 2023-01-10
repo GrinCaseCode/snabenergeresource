@@ -13,7 +13,7 @@
 *:-ms-input-placeholder {
 	color: #4A5D85;
 	opacity: 1;
-}
+} 
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -1639,4 +1639,180 @@ form {
 }
 .page-portfolio .content-section {
 	padding-bottom: 20px;
+}
+
+.tabs {
+	margin: 0 -13px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.tabs li {
+	padding: 0 13px;
+	flex: 1;
+}
+.tabs a {
+	height: 76px;
+	padding: 0 15px;
+	line-height: 22px;
+	font-weight: 500;
+	color: #fff;
+	border: 1px solid #09B2B2;
+	background: #09B2B2;
+	border-radius: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.tabs .active a,
+.tabs a:hover {
+	color: #09B2B2;
+	background-color: transparent;
+}
+.page-sertificats .title-section {
+	padding-bottom: 44px;
+}
+.item-sertificat {
+	height: 309px;
+	padding: 9px;
+	margin-bottom: 22px;
+	width: 100%;
+	border: 2px solid #09B2B2;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.item-sertificat img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.col-main {
+	width: 20%;
+	padding: 0 13px;
+}
+.row_sertificats {
+	margin: 0 -13px;
+}
+.tab-container {
+	padding-top: 36px;
+}
+.tab-pane {
+	display: none;
+}
+.tab-pane:first-child {
+	display: block;
+}
+.page-sertificats {
+	padding-bottom: 70px;
+}
+.page-sertificats .content-section {
+	padding-bottom: 50px;
+}
+.page-about {
+	padding-top: 50px;
+	padding-bottom: 100px;
+	position: relative;
+	z-index: 1;
+}
+.page-about::after,
+.page-about::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 100%;
+	height: 50%;
+	top: 0;
+	left: 0;
+	background-image: url(../img/about_page.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	pointer-events: none;
+}
+.page-about::after {
+	bottom: 1px;
+	top: auto;
+	transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.about-block {
+	padding: 38px 70px;
+	padding-bottom: 45px;
+	margin-bottom: 81px;
+	background: #FFFFFF;
+	color: #4A5D85;
+	border-radius: 35px;
+}
+.page-about .content-section {
+	margin-bottom: 81px;
+	padding-bottom: 45px;
+	color: #4A5D85;
+}
+.text-big {
+	font-size: 18px;
+	font-weight: 500;
+}
+.list-simple li {
+	padding-left: 15px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.list-simple li::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "•";
+}
+.page-about .content-section .text-big {
+	margin-bottom: 30px;
+}
+.page-about .content-section .title-section {
+	margin-bottom: 20px;
+	color: #111F3D;
+}
+.page-about .content-section img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.page-about .item-advantage {
+	color: #fff;
+}
+.page-about .about::before {
+	display: none;
+}
+.page-about .dealer-block {
+	font-size: 15px;
+	line-height: 21px;
+}
+.page-about .dealer-block p {
+	margin-bottom: 20px;
+}
+.title-small {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 500;
+	color: #111F3D;
+}
+.page-about .dealer-block .title-small {
+	margin-bottom: 19px;
+}
+.page-about .dealer-block .col-xl-8 img {
+	max-width: 100%;
+	height: auto;
+}
+.team-about .title-section {
+	text-align: center;
+}
+.team-about .content-section {
+	margin-top: -125px;
+	padding-left: 110px;
+	padding-right: 110px;
+	position: relative;
+	z-index: 4;
+}
+.team-about {
+	padding-bottom: 72px;
 }

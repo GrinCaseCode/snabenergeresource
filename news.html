@@ -18,25 +18,46 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.7" />
-	<link rel="stylesheet" href="css/media.css?ver=1.7" />
-</head>
-<body> 
+	<link rel="stylesheet" href="css/main.css?ver=1.12" />
+	<link rel="stylesheet" href="css/media.css?ver=1.12" />
+</head> 
+<body>
 
 	<div class="wrapper">
 
-		<header class="header">
+		<header class="header default">
 			<div class="header__top">
 				<div class="container">
 					<div class="header__wrapper">
-						<a href="#" class="logo">
+						<div class="show-fixed">
+							<span class='sandwich sandwich_catalog'>
+								<span class='sw-topper'></span>
+								<span class='sw-footer'></span>
+							</span>
+						</div>
+						<a href="#" class="logo hidden-fixed">
 							<img src="img/logo.svg" alt="alt">
+						</a>
+						<a href="#" class="logo show-fixed">
+							<img src="img/logo2.svg" alt="alt">
 						</a>
 						<div class="location-main">
 							<div class="location-main__value"><i class="far fa-chevron-down"></i><strong>Краснодар,</strong> ул. Зиповская, 5, оф., 202</div>
+							<ul class="location-main__dropdown">
+								<li><a href="#"><strong>Краснодар</strong>ул. Зиповская, 5, оф., 202 </a></li>
+								<li><a href="#"><strong>Краснодар</strong> ул. Зиповская, 5, оф., 202</a></li>
+							</ul>
 						</div>
 						<div class="header__info"><a href="mailto:info@snabenergo23.ru">info@snabenergo23.ru</a> <br>ПН - ПТ 8:00 — 18:00</div>
 						<a href="#" class="btn-page">СКАЧАТЬ ПРАЙС</a>
+						<div class="search-form show-fixed">
+							<form>
+								<div class="search-form__wrapper">
+									<input type="text" placeholder="поиск" required="required">
+									<button class="btn-search"><img src="img/search.svg" alt="alt"></button>
+								</div>
+							</form>
+						</div>
 						<div class="header__contacts">
 							<ul class="social-list">
 								<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
@@ -59,7 +80,7 @@
 			<div class="header__bottom">
 				<div class="container">
 					<div class="header__wrapper">
-						<span class='sandwich'>
+						<span class='sandwich sandwich_catalog'>
 							<span class='sw-topper'></span>
 							<span class='sw-footer'></span>
 						</span>
@@ -91,14 +112,62 @@
 					</form>
 				</div>
 				<ul class="menu">
-					<li><a href="#">масляные трансформаторы</a></li>
-					<li><a href="#">сухие трансформаторы</a></li>
-					<li><a href="#">молниезащита вл</a></li>
-					<li><a href="#">переходные пункты</a></li>
-					<li><a href="#">комплектующие</a></li>
+					<li><a href="#">О КОМПАНИИ</a></li>
+					<li><a href="#">ПРОЕКТЫ</a></li>
+					<li><a href="#">МАТЕРИАЛЫ ДЛЯ СКАЧИВАНИЯ</a></li>
+					<li><a href="#">ОПЛАТА И ДОСТАВКА</a></li>
+					<li><a href="#">НОВОСТИ</a></li>
+					<li>
+						<a href="#">масляные трансформаторы</a>
+						<i class="far fa-chevron-down"></i>
+						<ul>
+							<li><a href="#">Трансформаторы ТМГ разделительные</a></li>
+							<li><a href="#">Трансформаторы фланцевые ТМГФ 10(6) кВ</a></li>
+							<li><a href="#">Трансформаторы ТМ</a></li>
+							<li><a href="#">Трансформаторы ТМГ</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">сухие трансформаторы</a>
+						<i class="far fa-chevron-down"></i>
+						<ul>
+							<li><a href="#">Трансформаторы сухие с литой изоляцией </a></li>
+							<li><a href="#">ТСЛ 10(6) кВ</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">молниезащита вл</a>
+						<i class="far fa-chevron-down"></i>
+						<ul>
+							<li><a href="#">Защита от индуктированных перенапряжений</a></li>
+							<li><a href="#">Защита от прямых ударов</a></li>
+							<li><a href="#">Мультикамерная система (МКС)</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">переходные пункты</a>
+						<i class="far fa-chevron-down"></i>
+						<ul>
+							<li><a href="#">ПКПО-КВ</a></li>
+							<li><a href="#">Цифровой ПП</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">комплектующие</a>
+						<i class="far fa-chevron-down"></i>
+						<ul>
+							<li><a href="#">Виброгасящие опоры</a></li>
+							<li><a href="#">Контактные зажимы для трансформаторов ТМГ мощностью от 25 до 2500 кВа</a></li>
+							<li><a href="#">Другое</a></li>
+						</ul>
+					</li>
 				</ul>
 				<div class="location-main">
 					<div class="location-main__value"><i class="far fa-chevron-down"></i><strong>Краснодар,</strong> ул. Зиповская, 5, оф., 202</div>
+					<ul class="location-main__dropdown">
+						<li><a href="#"><strong>Краснодар</strong>ул. Зиповская, 5, оф., 202 </a></li>
+						<li><a href="#"><strong>Краснодар</strong> ул. Зиповская, 5, оф., 202</a></li>
+					</ul>
 				</div>
 				<div class="header__info"><a href="mailto:info@snabenergo23.ru">info@snabenergo23.ru</a> <br>ПН - ПТ 8:00 — 18:00</div>
 				<a href="#" class="btn-page">СКАЧАТЬ ПРАЙС</a>
@@ -113,6 +182,57 @@
 						<li><a href="tel:+79185400780">+7 (918) 540-07-80</a></li>
 					</ul>
 					<a href="#" class="btn-call"><img src="img/phone.svg" alt="alt"></a>
+				</div>
+			</div>
+			<div class="menu-dropdown">
+				<div class="container">
+					<div class="content-dropdown">
+						<div class="row">
+							<div class="col-lg-4">
+								<a href="#" class="title-flash">Масляные трансформаторы</a>
+								<ul>
+									<li><a href="#">Трансформаторы ТМГ разделительные</a></li>
+									<li><a href="#">Трансформаторы фланцевые ТМГФ 10(6) кВ</a></li>
+									<li><a href="#">Трансформаторы ТМ</a></li>
+									<li><a href="#">Трансформаторы ТМГ</a></li>
+								</ul>
+								<a href="#" class="title-flash">Молниезащита ВЛ</a>
+								<ul>
+									<li><a href="#">Защита от индуктированных перенапряжений</a></li>
+									<li><a href="#">Защита от прямых ударов</a></li>
+									<li><a href="#">Мультикамерная система (МКС)</a></li>
+								</ul>
+								<a href="#" class="title-flash">TRANSEC</a>
+							</div>
+							<div class="col-lg-4">
+								<a href="#" class="title-flash">Сухие трансформаторы</a>
+								<ul>
+									<li><a href="#">Трансформаторы сухие с литой изоляцией </a></li>
+									<li><a href="#">ТСЛ 10(6) кВ</a></li>
+								</ul>
+								<a href="#" class="title-flash">Переходные пункты</a>
+								<ul>
+									<li><a href="#">ПКПО-КВ</a></li>
+									<li><a href="#">Цифровой ПП</a></li>
+								</ul>
+								<a href="#" class="title-flash">Комплектующие</a>
+								<ul>
+									<li><a href="#">Виброгасящие опоры</a></li>
+									<li><a href="#">Контактные зажимы для трансформаторов ТМГ мощностью от 25 до 2500 кВа</a></li>
+									<li><a href="#">Другое</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-4">
+								<ul class="list-nav">
+									<li><a href="#">О КОМПАНИИ</a></li>
+									<li><a href="#">ПРОЕКТЫ</a></li>
+									<li><a href="#">МАТЕРИАЛЫ ДЛЯ СКАЧИВАНИЯ</a></li>
+									<li><a href="#">ОПЛАТА И ДОСТАВКА</a></li>
+									<li><a href="#">НОВОСТИ</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -355,7 +475,7 @@
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.7"></script>
+<script src="js/common.js?ver=1.12"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
